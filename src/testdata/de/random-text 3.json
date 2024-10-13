@@ -1,0 +1,19 @@
+{
+  "input": "CRM-Sys. wichtig f. mod. Firmen. Zentr. DB f. Kundeninfo nötig. Leicht zugreifbar u. updatebar. Vertrieb braucht Überblick: Kundenhistorie, Interaktionen, Kaufverhalten etc.. CRM muss E-Mail integrieren. Komm. erleichtern u. dokument. Auto. Erinnerungen f. Follow-ups u. Termine wichtig. Mgmt. braucht Reporting. Einblicke in Pipelines u. Trends. Mobiler Zugriff heut. unerlässlich. Mitarbeiter müssen unterwegs ran. Datenschutz u. Sicherheit: Top-Prio! Sensible Infos schützen. CRM anpassbar f. spez. Prozesse u. Workflows.",
+  "expected": [
+    "CRM-Sys. wichtig f. mod. Firmen.",
+    "Zentr. DB f. Kundeninfo nötig.",
+    "Leicht zugreifbar u. updatebar.",
+    "Vertrieb braucht Überblick: Kundenhistorie, Interaktionen, Kaufverhalten etc..",
+    "CRM muss E-Mail integrieren.",
+    "Komm. erleichtern u. dokument. Auto.",
+    "Erinnerungen f. Follow-ups u. Termine wichtig.",
+    "Mgmt. braucht Reporting.",
+    "Einblicke in Pipelines u. Trends.",
+    "Mobiler Zugriff heut. unerlässlich.",
+    "Mitarbeiter müssen unterwegs ran.",
+    "Datenschutz u. Sicherheit: Top-Prio!",
+    "Sensible Infos schützen.",
+    "CRM anpassbar f. spez. Prozesse u. Workflows."
+  ]
+}

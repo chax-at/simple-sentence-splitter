@@ -1,0 +1,19 @@
+{
+  "input": "Rest.-App wichtig f. mod. Lokale. Zentr. DB f. Speisekarte nötig. Leicht änderbar u. aktualisierbar. Kellner braucht Überblick: Tischreservierungen, Bestellungen, Allergien etc.. App muss Zahlungssystem integrieren. Komm. zw. Küche u. Service verbessern. Autom. Benachrichtigungen f. Bestellstatus u. Wartezeiten wichtig. Chef braucht Umsatzübersicht. Einblicke in beliebte Gerichte u. Stoßzeiten. Online-Reservierung heut. unerlässlich. Gäste müssen von überall buchen können. Datenschutz u. Hygiene: Top-Prio! Kundendaten schützen. App anpassbar f. versch. Restauranttypen u. Abläufe.",
+  "expected": [
+    "Rest.-App wichtig f. mod. Lokale.",
+    "Zentr. DB f. Speisekarte nötig.",
+    "Leicht änderbar u. aktualisierbar.",
+    "Kellner braucht Überblick: Tischreservierungen, Bestellungen, Allergien etc..",
+    "App muss Zahlungssystem integrieren.",
+    "Komm. zw. Küche u. Service verbessern.",
+    "Autom. Benachrichtigungen f. Bestellstatus u. Wartezeiten wichtig.",
+    "Chef braucht Umsatzübersicht.",
+    "Einblicke in beliebte Gerichte u. Stoßzeiten.",
+    "Online-Reservierung heut. unerlässlich.",
+    "Gäste müssen von überall buchen können.",
+    "Datenschutz u. Hygiene: Top-Prio!",
+    "Kundendaten schützen.",
+    "App anpassbar f. versch. Restauranttypen u. Abläufe."
+  ]
+}

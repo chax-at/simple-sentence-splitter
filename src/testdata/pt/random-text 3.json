@@ -1,0 +1,19 @@
+{
+  "input": "Sistema CRM importante para empresas modernas. BD Central para info do cliente necessária. Facilmente acessível e atualizável. Vendas precisa de resumo: histórico do cliente, interações, comportamento de compra, etc.. CRM deve integrar e-mail. Comunicação facilitar e documentar automaticamente. Lembretes para acompanhamentos e compromissos importantes. Gerência precisa de relatórios. Perspectivas sobre pipelines e tendências. Acesso móvel hoje essencial. Funcionários devem acessar em movimento. Proteção de dados e segurança: Máxima prioridade! Proteger info sensível. CRM personalizável para processos e fluxos de trabalho específicos.",
+  "expected": [
+    "Sistema CRM importante para empresas modernas.",
+    "BD Central para info do cliente necessária.",
+    "Facilmente acessível e atualizável.",
+    "Vendas precisa de resumo: histórico do cliente, interações, comportamento de compra, etc..",
+    "CRM deve integrar e-mail.",
+    "Comunicação facilitar e documentar automaticamente.",
+    "Lembretes para acompanhamentos e compromissos importantes.",
+    "Gerência precisa de relatórios.",
+    "Perspectivas sobre pipelines e tendências.",
+    "Acesso móvel hoje essencial.",
+    "Funcionários devem acessar em movimento.",
+    "Proteção de dados e segurança: Máxima prioridade!",
+    "Proteger info sensível.",
+    "CRM personalizável para processos e fluxos de trabalho específicos."
+  ]
+}

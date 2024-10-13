@@ -1,0 +1,19 @@
+{
+  "input": "CRM-Sys. important for mod. companies. Centr. DB for customer info necessary. Easily accessible a. updatable. Sales needs overview: customer history, interactions, buying behavior etc.. CRM must integrate email. Comm. facilitate a. doc. automatically. Reminders for follow-ups a. appointments important. Mgmt. needs reporting. Insights into pipelines a. trends. Mobile access today essential. Employees must access on the go. Data protection a. security: Top priority! Protect sensitive info. CRM customizable for spec. processes a. workflows.",
+  "expected": [
+    "CRM-Sys. important for mod. companies.",
+    "Centr. DB for customer info necessary.",
+    "Easily accessible a. updatable.",
+    "Sales needs overview: customer history, interactions, buying behavior etc..",
+    "CRM must integrate email.",
+    "Comm. facilitate a. doc. automatically.",
+    "Reminders for follow-ups a. appointments important.",
+    "Mgmt. needs reporting.",
+    "Insights into pipelines a. trends.",
+    "Mobile access today essential.",
+    "Employees must access on the go.",
+    "Data protection a. security: Top priority!",
+    "Protect sensitive info.",
+    "CRM customizable for spec. processes a. workflows."
+  ]
+}

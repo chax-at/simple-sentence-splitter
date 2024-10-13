@@ -1,0 +1,19 @@
+{
+  "input": "Syst. CRM important pour entreprises mod. BD Centr. pour info client nécessaire. Facilement accessible et actualisable. Ventes ont besoin de résumé : historique client, interactions, comportement d'achat, etc.. CRM doit intégrer e-mail. Comm. faciliter et doc. automatiquement. Rappels pour suivis et rendez-vous importants. Mgmt. a besoin de rapports. Perspectives sur pipelines et tendances. Accès mobile aujourd'hui essentiel. Employés doivent accéder en déplacement. Protection des données et sécurité : Priorité maximale ! Protéger info sensible. CRM personnalisable pour processus et flux de travail spéc.",
+  "expected": [
+    "Syst. CRM important pour entreprises mod.",
+    "BD Centr. pour info client nécessaire.",
+    "Facilement accessible et actualisable.",
+    "Ventes ont besoin de résumé : historique client, interactions, comportement d'achat, etc..",
+    "CRM doit intégrer e-mail.",
+    "Comm. faciliter et doc. automatiquement.",
+    "Rappels pour suivis et rendez-vous importants.",
+    "Mgmt. a besoin de rapports.",
+    "Perspectives sur pipelines et tendances.",
+    "Accès mobile aujourd'hui essentiel.",
+    "Employés doivent accéder en déplacement.",
+    "Protection des données et sécurité : Priorité maximale !",
+    "Protéger info sensible.",
+    "CRM personnalisable pour processus et flux de travail spéc."
+  ]
+}

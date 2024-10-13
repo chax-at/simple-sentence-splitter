@@ -1,0 +1,20 @@
+{
+  "input": "Un... sistema de Gestión de Relaciones con el Cliente (CRM) eficaz es esencial para las empresas modernas. Debe proporcionar una base de datos central para toda la información del cliente que sea fácilmente accesible y actualizable. Los empleados de ventas necesitan una presentación clara del historial del cliente, incluyendo interacciones pasadas y comportamiento de compra. El CRM debe permitir una integración perfecta con los sistemas de correo electrónico para facilitar y documentar la comunicación. Los recordatorios automatizados para seguimientos y citas importantes con clientes también son importantes. Las funciones de informes completos son necesarias para la gestión, proporcionando información sobre los canales de ventas y las tendencias de los clientes. La accesibilidad móvil es esencial en el mundo actual, permitiendo a los empleados acceder a los datos de los clientes en movimiento. La protección y seguridad de los datos debe tener la máxima prioridad para proteger la información sensible de los clientes. Finalmente, el CRM debe ser personalizable para mapear procesos y flujos de trabajo específicos del negocio. Desde la perspectiva de una secretaria, el sistema CRM debe tener una interfaz fácil de usar que permita un registro y actualización rápidos de los datos de los clientes. Una función de calendario integrada sería extremadamente útil para gestionar eficientemente las citas y tareas. La capacidad de almacenar documentos directamente en el sistema y vincularlos a los perfiles de los clientes facilitaría enormemente el trabajo diario. Una función de recordatorio automático para eventos importantes como cumpleaños o aniversarios de clientes también sería muy útil. Además, una función de búsqueda simple que permita encontrar rápidamente la información del cliente sería esencial para un trabajo eficiente. Finalmente, el sistema debería ofrecer una forma sencilla de crear informes y resúmenes para los superiores para mejorar la comunicación dentro de la empresa.",
+  "expected": [
+    "Un... sistema de Gestión de Relaciones con el Cliente (CRM) eficaz es esencial para las empresas modernas.",
+    "Debe proporcionar una base de datos central para toda la información del cliente que sea fácilmente accesible y actualizable.",
+    "Los empleados de ventas necesitan una presentación clara del historial del cliente, incluyendo interacciones pasadas y comportamiento de compra.",
+    "El CRM debe permitir una integración perfecta con los sistemas de correo electrónico para facilitar y documentar la comunicación.",
+    "Los recordatorios automatizados para seguimientos y citas importantes con clientes también son importantes.",
+    "Las funciones de informes completos son necesarias para la gestión, proporcionando información sobre los canales de ventas y las tendencias de los clientes.",
+    "La accesibilidad móvil es esencial en el mundo actual, permitiendo a los empleados acceder a los datos de los clientes en movimiento.",
+    "La protección y seguridad de los datos debe tener la máxima prioridad para proteger la información sensible de los clientes.",
+    "Finalmente, el CRM debe ser personalizable para mapear procesos y flujos de trabajo específicos del negocio.",
+    "Desde la perspectiva de una secretaria, el sistema CRM debe tener una interfaz fácil de usar que permita un registro y actualización rápidos de los datos de los clientes.",
+    "Una función de calendario integrada sería extremadamente útil para gestionar eficientemente las citas y tareas.",
+    "La capacidad de almacenar documentos directamente en el sistema y vincularlos a los perfiles de los clientes facilitaría enormemente el trabajo diario.",
+    "Una función de recordatorio automático para eventos importantes como cumpleaños o aniversarios de clientes también sería muy útil.",
+    "Además, una función de búsqueda simple que permita encontrar rápidamente la información del cliente sería esencial para un trabajo eficiente.",
+    "Finalmente, el sistema debería ofrecer una forma sencilla de crear informes y resúmenes para los superiores para mejorar la comunicación dentro de la empresa."
+  ]
+}

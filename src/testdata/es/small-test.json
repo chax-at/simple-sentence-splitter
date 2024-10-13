@@ -1,0 +1,10 @@
+{
+  "input": "Instagram, en Ingolf-C. 12, es una plataforma popular de redes sociales. Permite... a los usuarios compartir fotos y videos. Los usuarios también pueden publicar historias que desaparecen después de 24 horas. La aplicación ofrece varios filtros y opciones de edición. Los influencers a menudo usan Instagram con fines de marketing.",
+  "expected": [
+    "Instagram, en Ingolf-C. 12, es una plataforma popular de redes sociales.",
+    "Permite... a los usuarios compartir fotos y videos.",
+    "Los usuarios también pueden publicar historias que desaparecen después de 24 horas.",
+    "La aplicación ofrece varios filtros y opciones de edición.",
+    "Los influencers a menudo usan Instagram con fines de marketing."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "input": "Um... sistema de Gestão de Relacionamento com o Cliente (CRM) eficaz é essencial para as empresas modernas. Deve fornecer uma base de dados central para todas as informações do cliente que seja facilmente acessível e atualizável. Os funcionários de vendas precisam de uma apresentação clara do histórico do cliente, incluindo interações passadas e comportamento de compra. O CRM deve permitir uma integração perfeita com os sistemas de e-mail para facilitar e documentar a comunicação. Os lembretes automatizados para acompanhamentos e compromissos importantes com clientes também são importantes. As funções de relatórios completos são necessárias para a gestão, fornecendo informações sobre os canais de vendas e as tendências dos clientes. A acessibilidade móvel é essencial no mundo atual, permitindo que os funcionários acessem os dados dos clientes em movimento. A proteção e segurança dos dados deve ter a máxima prioridade para proteger as informações sensíveis dos clientes. Finalmente, o CRM deve ser personalizável para mapear processos e fluxos de trabalho específicos do negócio. Do ponto de vista de uma secretária, o sistema CRM deve ter uma interface fácil de usar que permita um registro e atualização rápidos dos dados dos clientes. Uma função de calendário integrada seria extremamente útil para gerenciar eficientemente os compromissos e tarefas. A capacidade de armazenar documentos diretamente no sistema e vinculá-los aos perfis dos clientes facilitaria enormemente o trabalho diário. Uma função de lembrete automático para eventos importantes como aniversários de clientes também seria muito útil. Além disso, uma função de busca simples que permita encontrar rapidamente as informações do cliente seria essencial para um trabalho eficiente. Finalmente, o sistema deveria oferecer uma forma simples de criar relatórios e resumos para os superiores para melhorar a comunicação dentro da empresa.",
+  "expected": [
+    "Um... sistema de Gestão de Relacionamento com o Cliente (CRM) eficaz é essencial para as empresas modernas.",
+    "Deve fornecer uma base de dados central para todas as informações do cliente que seja facilmente acessível e atualizável.",
+    "Os funcionários de vendas precisam de uma apresentação clara do histórico do cliente, incluindo interações passadas e comportamento de compra.",
+    "O CRM deve permitir uma integração perfeita com os sistemas de e-mail para facilitar e documentar a comunicação.",
+    "Os lembretes automatizados para acompanhamentos e compromissos importantes com clientes também são importantes.",
+    "As funções de relatórios completos são necessárias para a gestão, fornecendo informações sobre os canais de vendas e as tendências dos clientes.",
+    "A acessibilidade móvel é essencial no mundo atual, permitindo que os funcionários acessem os dados dos clientes em movimento.",
+    "A proteção e segurança dos dados deve ter a máxima prioridade para proteger as informações sensíveis dos clientes.",
+    "Finalmente, o CRM deve ser personalizável para mapear processos e fluxos de trabalho específicos do negócio.",
+    "Do ponto de vista de uma secretária, o sistema CRM deve ter uma interface fácil de usar que permita um registro e atualização rápidos dos dados dos clientes.",
+    "Uma função de calendário integrada seria extremamente útil para gerenciar eficientemente os compromissos e tarefas.",
+    "A capacidade de armazenar documentos diretamente no sistema e vinculá-los aos perfis dos clientes facilitaria enormemente o trabalho diário.",
+    "Uma função de lembrete automático para eventos importantes como aniversários de clientes também seria muito útil.",
+    "Além disso, uma função de busca simples que permita encontrar rapidamente as informações do cliente seria essencial para um trabalho eficiente.",
+    "Finalmente, o sistema deveria oferecer uma forma simples de criar relatórios e resumos para os superiores para melhorar a comunicação dentro da empresa."
+  ]
+}

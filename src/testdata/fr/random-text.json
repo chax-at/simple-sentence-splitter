@@ -1,0 +1,14 @@
+{
+  "input": "Un système efficace de Gestion de la Relation Client (CRM) est essentiel pour les entreprises modernes. Il doit fournir une base de données centrale pour toutes les informations client, facilement accessible et actualisable. Les employés des ventes ont besoin d'une présentation claire de l'historique du client, y compris les interactions passées et le comportement d'achat. Le CRM doit permettre une intégration parfaite avec les systèmes de messagerie pour faciliter et documenter la communication. Les rappels automatisés pour les suivis et les rendez-vous importants avec les clients sont également importants. Des fonctions de reporting complètes sont nécessaires pour la gestion, fournissant des informations sur les processus de vente et les tendances des clients. L'accessibilité mobile est essentielle dans le monde d'aujourd'hui, permettant aux employés d'accéder aux données des clients en déplacement. La protection et la sécurité des données doivent être la priorité absolue pour protéger les informations sensibles des clients. Enfin, le CRM doit être personnalisable pour cartographier les processus et les flux de travail spécifiques à l'entreprise.",
+  "expected": [
+    "Un système efficace de Gestion de la Relation Client (CRM) est essentiel pour les entreprises modernes.",
+    "Il doit fournir une base de données centrale pour toutes les informations client, facilement accessible et actualisable.",
+    "Les employés des ventes ont besoin d'une présentation claire de l'historique du client, y compris les interactions passées et le comportement d'achat.",
+    "Le CRM doit permettre une intégration parfaite avec les systèmes de messagerie pour faciliter et documenter la communication.",
+    "Les rappels automatisés pour les suivis et les rendez-vous importants avec les clients sont également importants.",
+    "Des fonctions de reporting complètes sont nécessaires pour la gestion, fournissant des informations sur les processus de vente et les tendances des clients.",
+    "L'accessibilité mobile est essentielle dans le monde d'aujourd'hui, permettant aux employés d'accéder aux données des clients en déplacement.",
+    "La protection et la sécurité des données doivent être la priorité absolue pour protéger les informations sensibles des clients.",
+    "Enfin, le CRM doit être personnalisable pour cartographier les processus et les flux de travail spécifiques à l'entreprise."
+  ]
+}

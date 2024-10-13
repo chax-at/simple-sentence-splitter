@@ -1,18 +1,18 @@
 {
-  "name": "@chax-npm/package-template",
+  "name": "@chax-npm/simple-sentence-splitter",
   "version": "0.1.0",
-  "description": "A template, used for chax-npm packages",
-  "license": "UNLICENSED",
+  "description": "A sentence splitter, written for https://storywi.se, which works quite well",
+  "license": "MIT",
   "author": "chax.at - Challenge Accepted",
   "maintainers": [
     {
-      "name": "Your name",
-      "email": "<your.name@chax.at>"
+      "name": "Simon Jiménez",
+      "email": "<simon.jimenez@chax.at>"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitea.chax.at/chax-npm/package-template.git"
+    "url": "https://gitea.chax.at/chax-npm/simple-sentence-splitter.git"
   },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",

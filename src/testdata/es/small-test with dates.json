@@ -1,0 +1,14 @@
+{
+  "input": "Instagram es una plataforma popular de redes sociales. Permite a los usuarios compartir fotos y videos. Los usuarios también pueden publicar historias que desaparecen después de 24 horas. La aplicación ofrece varios filtros y opciones de edición. Los influencers a menudo usan Instagram con fines de marketing. Instagram fue fundada el 6 de oct. de 2010. La primera versión de la aplicación se lanzó alrededor del 12 de nov. del mismo año. El 9 de abr. de 2012, Facebook adquirió Instagram. Desde el 2 de ago. de 2016, existe la función de Historias.",
+  "expected": [
+    "Instagram es una plataforma popular de redes sociales.",
+    "Permite a los usuarios compartir fotos y videos.",
+    "Los usuarios también pueden publicar historias que desaparecen después de 24 horas.",
+    "La aplicación ofrece varios filtros y opciones de edición.",
+    "Los influencers a menudo usan Instagram con fines de marketing.",
+    "Instagram fue fundada el 6 de oct. de 2010.",
+    "La primera versión de la aplicación se lanzó alrededor del 12 de nov. del mismo año.",
+    "El 9 de abr. de 2012, Facebook adquirió Instagram.",
+    "Desde el 2 de ago. de 2016, existe la función de Historias."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "input": "Ein effektives Customer Relationship Management (CRM) System ist für moderne Unternehmen unerlässlich. Es sollte eine zentrale Datenbank für alle Kundeninformationen bieten, die leicht zugänglich und aktualisierbar ist. Vertriebsmitarbeiter benötigen eine übersichtliche Darstellung der Kundenhistorie, einschließlich vergangener Interaktionen und Kaufverhalten. Das CRM muss eine nahtlose Integration mit E-Mail-Systemen ermöglichen, um die Kommunikation zu erleichtern und zu dokumentieren. Automatisierte Erinnerungen im Apr. für Follow-ups und wichtige Kundentermine sind ebenfalls wichtig. Für das Management sind umfassende Reporting-Funktionen erforderlich, die Einblicke in Vertriebspipelines und Kundentrends geben. Mobile Zugänglichkeit ist in der heutigen Zeit unerlässlich, damit Mitarbeiter auch unterwegs auf Kundendaten zugreifen können. Datenschutz und Sicherheit müssen höchste Priorität haben, um sensible Kundeninformationen zu schützen. Schließlich sollte das CRM anpassbar sein, um spezifische Geschäftsprozesse und Workflows abbilden zu können.",
+  "expected": [
+    "Ein effektives Customer Relationship Management (CRM) System ist für moderne Unternehmen unerlässlich.",
+    "Es sollte eine zentrale Datenbank für alle Kundeninformationen bieten, die leicht zugänglich und aktualisierbar ist.",
+    "Vertriebsmitarbeiter benötigen eine übersichtliche Darstellung der Kundenhistorie, einschließlich vergangener Interaktionen und Kaufverhalten.",
+    "Das CRM muss eine nahtlose Integration mit E-Mail-Systemen ermöglichen, um die Kommunikation zu erleichtern und zu dokumentieren.",
+    "Automatisierte Erinnerungen im Apr. für Follow-ups und wichtige Kundentermine sind ebenfalls wichtig.",
+    "Für das Management sind umfassende Reporting-Funktionen erforderlich, die Einblicke in Vertriebspipelines und Kundentrends geben.",
+    "Mobile Zugänglichkeit ist in der heutigen Zeit unerlässlich, damit Mitarbeiter auch unterwegs auf Kundendaten zugreifen können.",
+    "Datenschutz und Sicherheit müssen höchste Priorität haben, um sensible Kundeninformationen zu schützen.",
+    "Schließlich sollte das CRM anpassbar sein, um spezifische Geschäftsprozesse und Workflows abbilden zu können."
+  ]
+}

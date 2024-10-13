@@ -1,0 +1,19 @@
+{
+  "input": "App-Restaurante importante para restaurantes mod. BD Centr. para menú necesaria. Fácilmente editable y actualizable. Camarero necesita resumen: reservas de mesas, pedidos, alergias, etc.. App debe integrar sistema de pago. Comun. entre cocina y servicio mejorar. Notificaciones autom. para estado de pedidos y tiempos de espera importantes. Chef necesita resumen de ventas. Información sobre platos populares y horas punta. Reserva en línea hoy esencial. Clientes deben poder reservar desde cualquier lugar. Protección de datos e higiene: ¡Máxima prioridad! Proteger datos de clientes. App personalizable para dif. tipos de restaurantes y procesos.",
+  "expected": [
+    "App-Restaurante importante para restaurantes mod.",
+    "BD Centr. para menú necesaria.",
+    "Fácilmente editable y actualizable.",
+    "Camarero necesita resumen: reservas de mesas, pedidos, alergias, etc..",
+    "App debe integrar sistema de pago.",
+    "Comun. entre cocina y servicio mejorar.",
+    "Notificaciones autom. para estado de pedidos y tiempos de espera importantes.",
+    "Chef necesita resumen de ventas.",
+    "Información sobre platos populares y horas punta.",
+    "Reserva en línea hoy esencial.",
+    "Clientes deben poder reservar desde cualquier lugar.",
+    "Protección de datos e higiene: ¡Máxima prioridad!",
+    "Proteger datos de clientes.",
+    "App personalizable para dif. tipos de restaurantes y procesos."
+  ]
+}

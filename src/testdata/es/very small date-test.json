@@ -1,0 +1,7 @@
+{
+  "input": "Instagram fue fundado el 6 de oct. de 2010. El 9 de abr. de 2012, Instagram fue adquirido por Facebook.",
+  "expected": [
+    "Instagram fue fundado el 6 de oct. de 2010.",
+    "El 9 de abr. de 2012, Instagram fue adquirido por Facebook."
+  ]
+}

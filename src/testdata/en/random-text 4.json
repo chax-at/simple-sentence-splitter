@@ -1,0 +1,19 @@
+{
+  "input": "Rest.-App important for mod. restaurants. Centr. DB for menu necessary. Easily editable a. updatable. Waiter needs overview: table reservations, orders, allergies etc.. App must integrate payment system. Comm. btw. kitchen a. service improve. Autom. notifications for order status a. waiting times important. Chef needs sales overview. Insights into popular dishes a. peak times. Online reservation today essential. Guests must be able to book from anywhere. Data protection a. hygiene: Top priority! Protect customer data. App customizable for diff. restaurant types a. processes.",
+  "expected": [
+    "Rest.-App important for mod. restaurants.",
+    "Centr. DB for menu necessary.",
+    "Easily editable a. updatable.",
+    "Waiter needs overview: table reservations, orders, allergies etc..",
+    "App must integrate payment system.",
+    "Comm. btw. kitchen a. service improve.",
+    "Autom. notifications for order status a. waiting times important.",
+    "Chef needs sales overview.",
+    "Insights into popular dishes a. peak times.",
+    "Online reservation today essential.",
+    "Guests must be able to book from anywhere.",
+    "Data protection a. hygiene: Top priority!",
+    "Protect customer data.",
+    "App customizable for diff. restaurant types a. processes."
+  ]
+}

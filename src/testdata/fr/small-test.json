@@ -1,0 +1,10 @@
+{
+  "input": "Instagram, à Ingolf-Av. 12, est une plateforme populaire de réseaux sociaux. Elle permet... aux utilisateurs de partager des photos et des vidéos. Les utilisateurs peuvent également publier des stories qui disparaissent après 24 heures. L'application offre plusieurs filtres et options d'édition. Les influenceurs utilisent souvent Instagram à des fins marketing.",
+  "expected": [
+    "Instagram, à Ingolf-Av. 12, est une plateforme populaire de réseaux sociaux.",
+    "Elle permet... aux utilisateurs de partager des photos et des vidéos.",
+    "Les utilisateurs peuvent également publier des stories qui disparaissent après 24 heures.",
+    "L'application offre plusieurs filtres et options d'édition.",
+    "Les influenceurs utilisent souvent Instagram à des fins marketing."
+  ]
+}

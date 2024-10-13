@@ -1,0 +1,20 @@
+{
+  "input": "An... effective Customer Relationship Management (CRM) system is essential for modern companies. It should provide a central database for all customer information that is easily accessible and updatable. Sales employees need a clear presentation of customer history, including past interactions and purchasing behavior. The CRM must enable seamless integration with email systems to facilitate and document communication. Automated reminders for follow-ups and important customer appointments are also important. Comprehensive reporting functions are necessary for management, providing insights into sales pipelines and customer trends. Mobile accessibility is essential in today's world, allowing employees to access customer data on the go. Data protection and security must have the highest priority to protect sensitive customer information. Finally, the CRM should be customizable to map specific business processes and workflows. From a secretary's perspective, the CRM system should have a user-friendly interface that allows for quick recording and updating of customer data. An integrated calendar function would be extremely helpful for efficiently managing appointments and tasks. The ability to store documents directly in the system and link them to customer profiles would greatly facilitate daily work. An automatic reminder function for important events such as customer birthdays or anniversaries would also be very useful. In addition, a simple search function that allows quick finding of customer information would be essential for efficient working. Finally, the system should offer an uncomplicated way to create reports and summaries for superiors to improve communication within the company.",
+  "expected": [
+    "An... effective Customer Relationship Management (CRM) system is essential for modern companies.",
+    "It should provide a central database for all customer information that is easily accessible and updatable.",
+    "Sales employees need a clear presentation of customer history, including past interactions and purchasing behavior.",
+    "The CRM must enable seamless integration with email systems to facilitate and document communication.",
+    "Automated reminders for follow-ups and important customer appointments are also important.",
+    "Comprehensive reporting functions are necessary for management, providing insights into sales pipelines and customer trends.",
+    "Mobile accessibility is essential in today's world, allowing employees to access customer data on the go.",
+    "Data protection and security must have the highest priority to protect sensitive customer information.",
+    "Finally, the CRM should be customizable to map specific business processes and workflows.",
+    "From a secretary's perspective, the CRM system should have a user-friendly interface that allows for quick recording and updating of customer data.",
+    "An integrated calendar function would be extremely helpful for efficiently managing appointments and tasks.",
+    "The ability to store documents directly in the system and link them to customer profiles would greatly facilitate daily work.",
+    "An automatic reminder function for important events such as customer birthdays or anniversaries would also be very useful.",
+    "In addition, a simple search function that allows quick finding of customer information would be essential for efficient working.",
+    "Finally, the system should offer an uncomplicated way to create reports and summaries for superiors to improve communication within the company."
+  ]
+}

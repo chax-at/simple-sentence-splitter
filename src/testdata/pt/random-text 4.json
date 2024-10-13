@@ -1,0 +1,19 @@
+{
+  "input": "App-Restaurante importante para restaurantes mod. BD Centr. para cardápio necessária. Facilmente editável e atualizável. Garçom precisa de resumo: reservas de mesas, pedidos, alergias, etc.. App deve integrar sistema de pagamento. Comun. entre cozinha e serviço melhorar. Notificações autom. para estado de pedidos e tempos de espera importantes. Chef precisa de resumo de vendas. Informação sobre pratos populares e horários de pico. Reserva online hoje essencial. Clientes devem poder reservar de qualquer lugar. Proteção de dados e higiene: Máxima prioridade! Proteger dados de clientes. App personalizável para dif. tipos de restaurantes e processos.",
+  "expected": [
+    "App-Restaurante importante para restaurantes mod.",
+    "BD Centr. para cardápio necessária.",
+    "Facilmente editável e atualizável.",
+    "Garçom precisa de resumo: reservas de mesas, pedidos, alergias, etc..",
+    "App deve integrar sistema de pagamento.",
+    "Comun. entre cozinha e serviço melhorar.",
+    "Notificações autom. para estado de pedidos e tempos de espera importantes.",
+    "Chef precisa de resumo de vendas.",
+    "Informação sobre pratos populares e horários de pico.",
+    "Reserva online hoje essencial.",
+    "Clientes devem poder reservar de qualquer lugar.",
+    "Proteção de dados e higiene: Máxima prioridade!",
+    "Proteger dados de clientes.",
+    "App personalizável para dif. tipos de restaurantes e processos."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "input": "Um sistema eficaz de Gestão de Relacionamento com o Cliente (CRM) é essencial para as empresas modernas. Deve fornecer uma base de dados central para todas as informações do cliente que seja facilmente acessível e atualizável. Os funcionários de vendas precisam de uma apresentação clara do histórico do cliente, incluindo interações passadas e comportamento de compra. O CRM deve permitir uma integração perfeita com os sistemas de e-mail para facilitar e documentar a comunicação. Lembretes automatizados para acompanhamentos e compromissos importantes com clientes também são importantes. As funções de relatórios abrangentes são necessárias para a gestão, fornecendo informações sobre os processos de vendas e as tendências dos clientes. A acessibilidade móvel é essencial no mundo atual, permitindo que os funcionários acessem os dados dos clientes em movimento. A proteção e segurança dos dados deve ter a máxima prioridade para proteger as informações sensíveis do cliente. Finalmente, o CRM deve ser personalizável para mapear processos e fluxos de trabalho específicos do negócio.",
+  "expected": [
+    "Um sistema eficaz de Gestão de Relacionamento com o Cliente (CRM) é essencial para as empresas modernas.",
+    "Deve fornecer uma base de dados central para todas as informações do cliente que seja facilmente acessível e atualizável.",
+    "Os funcionários de vendas precisam de uma apresentação clara do histórico do cliente, incluindo interações passadas e comportamento de compra.",
+    "O CRM deve permitir uma integração perfeita com os sistemas de e-mail para facilitar e documentar a comunicação.",
+    "Lembretes automatizados para acompanhamentos e compromissos importantes com clientes também são importantes.",
+    "As funções de relatórios abrangentes são necessárias para a gestão, fornecendo informações sobre os processos de vendas e as tendências dos clientes.",
+    "A acessibilidade móvel é essencial no mundo atual, permitindo que os funcionários acessem os dados dos clientes em movimento.",
+    "A proteção e segurança dos dados deve ter a máxima prioridade para proteger as informações sensíveis do cliente.",
+    "Finalmente, o CRM deve ser personalizável para mapear processos e fluxos de trabalho específicos do negócio."
+  ]
+}

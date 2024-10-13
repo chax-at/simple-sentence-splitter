@@ -1,0 +1,10 @@
+{
+  "input": "Instagram, at Ingolf-Str. 12, is a popular social media platform. It... allows users to share photos and videos. Users can also post stories that disappear after 24 hours. The app offers various filters and editing options. Influencers often use Instagram for marketing purposes.",
+  "expected": [
+    "Instagram, at Ingolf-Str. 12, is a popular social media platform.",
+    "It... allows users to share photos and videos.",
+    "Users can also post stories that disappear after 24 hours.",
+    "The app offers various filters and editing options.",
+    "Influencers often use Instagram for marketing purposes."
+  ]
+}

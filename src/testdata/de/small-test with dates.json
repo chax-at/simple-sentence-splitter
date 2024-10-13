@@ -1,0 +1,14 @@
+{
+  "input": "Instagram ist eine beliebte Social-Media-Plattform. Sie ermöglicht es Benutzern, Fotos und Videos zu teilen. Nutzer können auch Stories posten, die nach 24 Std. verschwinden. Die App bietet verschiedene Filter und Bearbeitungsmöglichkeiten. Influencer nutzen Instagram oft für Marketingzwecke. Instagram wurde am 6. Okt. 2010 gegründet. Die erste Version der App wurde ca. am 12. Nov. desselben Jahres veröffentlicht. Am 9. Apr. 2012 wurde Instagram von Facebook übernommen. Seit dem 2. Aug. 2016 gibt es die Stories-Funktion.",
+  "expected": [
+    "Instagram ist eine beliebte Social-Media-Plattform.",
+    "Sie ermöglicht es Benutzern, Fotos und Videos zu teilen.",
+    "Nutzer können auch Stories posten, die nach 24 Std. verschwinden.",
+    "Die App bietet verschiedene Filter und Bearbeitungsmöglichkeiten.",
+    "Influencer nutzen Instagram oft für Marketingzwecke.",
+    "Instagram wurde am 6. Okt. 2010 gegründet.",
+    "Die erste Version der App wurde ca. am 12. Nov. desselben Jahres veröffentlicht.",
+    "Am 9. Apr. 2012 wurde Instagram von Facebook übernommen.",
+    "Seit dem 2. Aug. 2016 gibt es die Stories-Funktion."
+  ]
+}
