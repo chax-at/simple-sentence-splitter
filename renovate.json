@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended", "schedule:nonOfficeHours", "group:allNonMajor"],
+  "timezone": "Europe/Vienna",
+  "major": {
+    "dependencyDashboardApproval": true
+  },
+  "npm": {
+    "minimumReleaseAge": "7 days",
+    "updatePinnedDependencies": false
+  },
+  "packageRules": [
+    {
+      "description": "Prettier should always be pinned to a specific version to guarantee same formatting. https://prettier.io/docs/en/install#summary",
+      "matchPackageNames": ["prettier"],
+      "enabled": false
+    }
+  ]
+}
