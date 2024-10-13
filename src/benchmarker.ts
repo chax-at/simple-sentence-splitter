@@ -1,5 +1,6 @@
-import fs from 'fs/promises';
-import path from 'path';
+import { promises as fs } from 'fs';
+import path from 'node:path';
+
 import { Language } from './definitions';
 import processString from './index';
 
@@ -99,12 +100,11 @@ export default class Benchmarker {
     return accuracy;
   }
 
-  private async checkFolderExists(langFolder: string) {
-    const folderExists = await fs
+  private async checkFolderExists(langFolder: string): Promise<boolean> {
+    return fs
       .access(langFolder)
       .then(() => true)
       .catch(() => false);
-    return folderExists;
   }
 
   findClosestMatch = (sentence: string, haystack: string[]): string => {

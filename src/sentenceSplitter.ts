@@ -1,33 +1,39 @@
 // Implement default processing
 export default class SentenceSplitter {
-  private words: string[];
+  private readonly words: string[];
   private currentWordIndex: number;
   private currentSentence: string[];
   private sentences: string[];
-  private abbreviations: string[];
-  private dateRegex: RegExp;
-  private abbreviationRegexes: RegExp[];
+  private abbreviations: string[] = [];
+  private dateRegex: RegExp = /\./g;
+  private abbreviationRegexes: RegExp[] = [/\./g];
+  private readonly language: string;
 
   constructor(input: string, language: string) {
     this.words = input.split(/\s+/);
     this.currentWordIndex = 0;
     this.currentSentence = [];
     this.sentences = [];
+    this.language = language;
+  }
 
+  public async create(): Promise<void> {
     try {
-      const abbreviationData = require(`./abbreviations/${language}.json`);
+      const abbreviationData = await import(`./abbreviations/${this.language}.json`);
       this.abbreviations = abbreviationData.abbreviations;
-      this.abbreviationRegexes = abbreviationData.abbreviationRegexes.map((regex) => new RegExp(regex.slice(1, -1)));
+      this.abbreviationRegexes = abbreviationData.abbreviationRegexes.map(
+        (regex: string) => new RegExp(regex.slice(1, -1)),
+      );
       this.dateRegex = new RegExp(abbreviationData.dateRegex.slice(1, -1));
     } catch (error) {
-      console.warn(`No or incorrect abbreviations found for language: ${language}`);
+      console.warn(`No or incorrect abbreviations found for language: ${this.language}`);
       this.abbreviations = [];
       this.abbreviationRegexes = [];
       this.dateRegex = /^(19|20)\d{2}$/;
     }
   }
 
-  process(): string[] {
+  public process(): string[] {
     for (const word of this.words) {
       this.currentSentence.push(word);
       if (this.isSentenceEnd(word)) {
@@ -88,7 +94,7 @@ export default class SentenceSplitter {
     // Check for ellipsis (...) special case
     if (word.endsWith('...')) {
       // we think it is a line-ending, if the next word is capitalized
-      return this.isNextWordCapitalized(word);
+      return this.isNextWordCapitalized();
     }
 
     if (word.endsWith('.')) {
@@ -98,7 +104,7 @@ export default class SentenceSplitter {
     return false;
   }
 
-  private isNextWordCapitalized(word: string): boolean {
+  private isNextWordCapitalized(): boolean {
     const nextWord = this.words[this.currentWordIndex + 1];
     return !!nextWord && /^[A-ZÄÖÜ]/.test(nextWord);
   }
