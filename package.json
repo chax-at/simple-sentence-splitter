@@ -1,6 +1,6 @@
 {
   "name": "@chax-npm/simple-sentence-splitter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A sentence splitter, written for https://storywi.se, which works quite well",
   "license": "MIT",
   "author": "chax.at - Challenge Accepted",
@@ -23,6 +23,7 @@
     "prepare": "npm run build && husky install",
     "prebuild": "rimraf lib",
     "build": "tsc",
+    "postbuild": "copyfiles -u 1 src/abbreviations/*.json lib/",
     "check": "npm run lint && npm run test",
     "test": "jest",
     "lint": "eslint \"{src, test}/**/*.ts\"",
@@ -40,6 +41,7 @@
     "@types/jest": "^29.5.3",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
+    "copyfiles": "^2.4.1",
     "eslint": "^8.45.0",
     "eslint-config-prettier": "^9.0.0",
     "husky": "^9.0.0",

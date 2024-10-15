@@ -1,4 +1,4 @@
-import Benchmarker from '../src/benchmarker';
+import { Benchmarker } from '../src/benchmarker';
 
 const benchmarker = new Benchmarker();
 

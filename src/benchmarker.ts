@@ -1,12 +1,13 @@
+/* eslint-disable no-console */
 import { promises as fs } from 'fs';
 import path from 'node:path';
 
 import { Language } from './definitions';
-import processString from './index';
+import { processString } from './functions';
 
 const debug = process.env.debug ?? false;
 
-export default class Benchmarker {
+export class Benchmarker {
   public async benchmark(): Promise<number> {
     const testFolder = './src/testdata';
     let totalTests = 0;
