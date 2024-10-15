@@ -1,5 +1,5 @@
 // Implement default processing
-export default class SentenceSplitter {
+export class SentenceSplitter {
   private readonly words: string[];
   private currentWordIndex: number;
   private currentSentence: string[];
@@ -26,6 +26,7 @@ export default class SentenceSplitter {
       );
       this.dateRegex = new RegExp(abbreviationData.dateRegex.slice(1, -1));
     } catch (error) {
+      // eslint-disable-next-line no-console
       console.warn(`No or incorrect abbreviations found for language: ${this.language}`);
       this.abbreviations = [];
       this.abbreviationRegexes = [];
