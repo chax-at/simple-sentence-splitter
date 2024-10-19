@@ -1,4 +1,10 @@
 {
+  "abbreviationRegexes": [
+    "/\\b(Str|St)\\.$/",
+    "/\\b(str|st)\\.$/",
+    "/\\bPl\\.$/",
+    "/\\bpl\\.$/"
+  ],
   "abbreviations": [
     "a.",
     "A.",
@@ -228,6 +234,8 @@
     "z.Zt.",
     "Z.Zt.",
     "Zentr.",
+    "zw.",
+    "Zw.",
     "Zt.",
     "Jan.",
     "Feb.",
@@ -245,6 +253,5 @@
     "Nov.",
     "Dez."
   ],
-  "abbreviationRegexes": ["/\\b(Str|St)\\.$/", "/\\b(str|st)\\.$/", "/\\bPl\\.$/", "/\\bpl\\.$/"],
   "dateRegex": "/^(Jan|J(ä|ae)nner|Feb|M(ae|ä)rz|Apr|Mai|Jun|Jul|Aug|Sep|Okt|Nov|Dez|Jahre?n?|Winter|Fr(ü|ue)h(ling|jahr)|Sommer|Herbst)/"
 }

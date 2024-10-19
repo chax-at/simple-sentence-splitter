@@ -1,4 +1,10 @@
 {
+  "abbreviationRegexes": [
+    "/\\b(St|Str|Rd|Ave)\\.$/",
+    "/\\b(st|st|rd|ave)\\.$/",
+    "/\\bPl\\.$/",
+    "/\\bpl\\.$/"
+  ],
   "abbreviations": [
     "a.",
     "A.",
@@ -197,6 +203,5 @@
     "Vs.",
     "vs."
   ],
-  "abbreviationRegexes": ["/\\b(St|Str|Rd|Ave)\\.$/", "/\\b(st|st|rd|ave)\\.$/", "/\\bPl\\.$/", "/\\bpl\\.$/"],
   "dateRegex": "/^(Jan|January|Feb|February|Mar|March|Apr|April|May|Jun|June|Jul|July|Aug|August|Sep|September|Oct|October|Nov|November|Dec|December|Year|Years|Winter|Spring|Summer|Autumn|Fall)/"
 }

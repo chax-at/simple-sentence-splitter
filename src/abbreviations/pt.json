@@ -1,4 +1,12 @@
 {
+  "abbreviationRegexes": [
+    "/\\b(R|Rua|Av|Avenida|Pç)\\.$/",
+    "/\\b(r|rua|av|avenida|pç)\\.$/",
+    "/\\bPça\\.$/",
+    "/\\bpça\\.$/",
+    "/\\bSist\\.$/",
+    "/\\bsist\\.$/"
+  ],
   "abbreviations": [
     "a.",
     "A.",
@@ -185,14 +193,6 @@
     "vol.",
     "Vol.",
     "vs."
-  ],
-  "abbreviationRegexes": [
-    "/\\b(R|Rua|Av|Avenida|Pç)\\.$/",
-    "/\\b(r|rua|av|avenida|pç)\\.$/",
-    "/\\bPça\\.$/",
-    "/\\bpça\\.$/",
-    "/\\bSist\\.$/",
-    "/\\bsist\\.$/"
   ],
   "dateRegex": "/^(Jan|Janeiro|Fev|Fevereiro|Mar|Março|Abr|Abril|Mai|Maio|Jun|Junho|Jul|Julho|Ago|Agosto|Set|Setembro|Out|Outubro|Nov|Novembro|Dez|Dezembro|Ano|Anos|Inverno|Primavera|Verão|Outono)/"
 }
