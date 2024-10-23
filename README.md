@@ -1,5 +1,9 @@
 # @chax-npm/simple-sentence-splitter
 
+## Code
+Find the code in the internal gitea and on github:
+https://github.com/chax-at/simple-sentence-splitter
+
 # SentenceSplitter Package
 ## Overview
 The SentenceSplitter class is a sophisticated tool designed for splitting text input into individual sentences. It's particularly valuable for natural language processing (NLP) tasks that require sentence-level analysis.
