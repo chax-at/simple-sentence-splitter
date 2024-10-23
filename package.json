@@ -18,7 +18,6 @@
   "typings": "lib/index.d.ts",
   "bin": {},
   "scripts": {
-    "prepack": "npm run check",
     "preversion": "npm run check",
     "prepare": "npm run build && husky install",
     "prebuild": "rimraf lib",
