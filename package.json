@@ -19,7 +19,6 @@
   "bin": {},
   "scripts": {
     "preversion": "npm run check",
-    "prepare": "npm run build && husky install",
     "prebuild": "rimraf lib",
     "build": "tsc",
     "postbuild": "copyfiles -u 1 src/abbreviations/*.json lib/",
