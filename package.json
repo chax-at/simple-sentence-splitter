@@ -1,6 +1,6 @@
 {
-  "name": "@chax-npm/simple-sentence-splitter",
-  "version": "0.1.2",
+  "name": "@chax-at/simple-sentence-splitter",
+  "version": "0.1.3",
   "description": "A sentence splitter, written for https://storywi.se, which works quite well",
   "license": "MIT",
   "author": "chax.at - Challenge Accepted",
