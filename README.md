@@ -11,7 +11,7 @@ Usage:
 ```
       import { SentenceSplitter } from '@chax-at/simple-sentence-splitter';
       const sentenceSplitter = new SentenceSplitter(text, language);
-      await sentenceSplitter.create();
+      // returns a promise
       return sentenceSplitter.process();
 ```
 ## Key Features
