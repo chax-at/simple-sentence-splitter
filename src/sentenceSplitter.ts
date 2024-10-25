@@ -8,6 +8,7 @@ export class SentenceSplitter {
   private dateRegex: RegExp = /\./g;
   private abbreviationRegexes: RegExp[] = [/\./g];
   private readonly language: string;
+  private isCreated = false;
 
   constructor(input: string, language: string) {
     this.words = input.split(/\s+/);
@@ -18,6 +19,7 @@ export class SentenceSplitter {
   }
 
   public async create(): Promise<void> {
+    if (this.isCreated) return;
     try {
       const abbreviationData = await import(`./abbreviations/${this.language}.json`);
       this.abbreviations = abbreviationData.abbreviations;
@@ -25,6 +27,7 @@ export class SentenceSplitter {
         (regex: string) => new RegExp(regex.slice(1, -1)),
       );
       this.dateRegex = new RegExp(abbreviationData.dateRegex.slice(1, -1));
+      this.isCreated = true;
     } catch (error) {
       // eslint-disable-next-line no-console
       console.warn(`No or incorrect abbreviations found for language: ${this.language}`);
@@ -34,7 +37,8 @@ export class SentenceSplitter {
     }
   }
 
-  public process(): string[] {
+  public async process(): Promise<string[]> {
+    await this.create();
     for (const word of this.words) {
       this.currentSentence.push(word);
       if (this.isSentenceEnd(word)) {

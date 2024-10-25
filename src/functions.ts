@@ -15,6 +15,5 @@ export async function processString(inputString: string, language?: Language): P
   }
 
   const processor = new SentenceSplitter(inputString, selectedLanguage);
-  await processor.create();
   return processor.process();
 }
