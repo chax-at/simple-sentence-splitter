@@ -167,7 +167,7 @@ export class SentenceSplitter {
 
   private isNextWordAListChar(): boolean {
     const nextWord = this.words[this.currentWordIndex + 1];
-    return !!nextWord && nextWord.match(/[•◦▪*-]/)?.length > 0;
+    return !!nextWord && /[•◦▪*-]/.test(nextWord);
   }
 
   private isAbbreviation(word: string): boolean {
