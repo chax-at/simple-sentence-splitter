@@ -69,13 +69,16 @@ export class SentenceSplitter {
     if (this.currentSentence.length > 0) {
       this.sentences.push(this.currentSentence.join(' '));
     }
-    // replace the bullet char again
-    const sentencesWithoutBulletChar = this.sentences.map((sentence) =>
-      sentence.replace(new RegExp(bulletChar, 'g'), ' '),
-    );
 
-    // and remove trailing/leading spaces (again)
-    return sentencesWithoutBulletChar.map((s) => s.trim());
+    return (
+      this.sentences
+        // replace the bullet char again
+        .map((sentence) => sentence.replace(new RegExp(bulletChar, 'g'), ' '))
+        // and remove trailing/leading spaces (again)
+        .map((s) => s.trim())
+        // no empty sentences allowed
+        .filter((s) => s)
+    );
   }
 
   public static supportedLanguages(): string[] {
@@ -125,10 +128,24 @@ export class SentenceSplitter {
       return true;
     }
 
+    // Check for end of line
+    if (word === bulletChar) {
+      // we think it is a line-ending, if the next thing is a line ending (bullet char)
+      // the next word is a list char? then this is the end of the sentence
+      return this.isNextWordAListChar();
+    }
+
     // Check for ellipsis (...) special case
-    if (word.endsWith('...') || word.endsWith(bulletChar)) {
+    if (word.endsWith('...')) {
       // we think it is a line-ending, if the next word is capitalized
+
       return this.isNextWordCapitalized();
+    }
+
+    // Check for : special case
+    if (word.endsWith(':')) {
+      // we think it is a line-ending, if the next thing is a line ending (bullet char)
+      return this.isNextWordBulletChar();
     }
 
     if (word.endsWith('.')) {
@@ -141,6 +158,16 @@ export class SentenceSplitter {
   private isNextWordCapitalized(): boolean {
     const nextWord = this.words[this.currentWordIndex + 1];
     return !!nextWord && /^[A-ZÄÖÜ]/.test(nextWord);
+  }
+
+  private isNextWordBulletChar(): boolean {
+    const nextWord = this.words[this.currentWordIndex + 1];
+    return !!nextWord && nextWord === bulletChar;
+  }
+
+  private isNextWordAListChar(): boolean {
+    const nextWord = this.words[this.currentWordIndex + 1];
+    return !!nextWord && nextWord.match(/[•◦▪*-]/)?.length > 0;
   }
 
   private isAbbreviation(word: string): boolean {

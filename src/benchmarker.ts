@@ -18,6 +18,7 @@ export class Benchmarker {
     const testFolder = './src/testdata';
     let totalTests = 0;
     let correctTests = 0;
+    const fileNameForSingleTest = '';
 
     // Iterate over all languages
     for (const lang of Object.values(Language)) {
@@ -34,6 +35,10 @@ export class Benchmarker {
         const files = await fs.readdir(langFolder);
         for (const file of files) {
           if (file.endsWith('.json')) {
+            // add for debugging purposes
+            // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+            if (fileNameForSingleTest !== '' && !file.includes(fileNameForSingleTest)) continue;
+
             const filePath = path.join(langFolder, file);
             const content = await fs.readFile(filePath, 'utf-8');
             const { input, expected } = JSON.parse(content);
