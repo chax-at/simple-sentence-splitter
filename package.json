@@ -1,6 +1,6 @@
 {
   "name": "@chax-at/simple-sentence-splitter",
-  "version": "0.1.6",
+  "version": "0.2.1",
   "description": "A sentence splitter, written for https://storywi.se, which works quite well",
   "license": "MIT",
   "author": "chax.at - Challenge Accepted",
@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "@chax-at/eslint-config": "^0.1.0",
+    "@donedeal0/superdiff": "^3.0.0",
     "@swc/core": "^1.3.69",
     "@swc/jest": "^0.2.26",
     "@types/jest": "^29.5.3",

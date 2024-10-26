@@ -1,4 +1,8 @@
 // Implement default processing
+import { Language } from './definitions';
+
+const bulletChar = '\u2022';
+
 export class SentenceSplitter {
   private readonly words: string[];
   private currentWordIndex: number;
@@ -11,7 +15,22 @@ export class SentenceSplitter {
   private isCreated = false;
 
   constructor(input: string, language: string) {
-    this.words = input.split(/\s+/);
+    // newlines will get replaced with bullet chars. they may be in the pdf and we don't want that in sentences - and we will use them as special chars
+    const replaceNewLinesWithBulletChars = input.replace(/\r\n|\r|\n/g, bulletChar);
+
+    // but if we have a dot and a newline directly next to each other, we don't want that. that would confuse our sentences
+    const replaceDotsAndBulletChars = replaceNewLinesWithBulletChars.replace(
+      new RegExp(`([.]${bulletChar}|${bulletChar}[.])`, 'g'),
+      '. ',
+    );
+
+    // but if we have two newlines directly next to each other, we want a newline and a space
+    const replaceDoubleNewlines = replaceDotsAndBulletChars.replace(
+      new RegExp(`${bulletChar}${bulletChar}`, 'g'),
+      `${bulletChar} `,
+    );
+
+    this.words = replaceDoubleNewlines.split(/\s+/);
     this.currentWordIndex = 0;
     this.currentSentence = [];
     this.sentences = [];
@@ -50,7 +69,17 @@ export class SentenceSplitter {
     if (this.currentSentence.length > 0) {
       this.sentences.push(this.currentSentence.join(' '));
     }
-    return this.sentences;
+    // replace the bullet char again
+    const sentencesWithoutBulletChar = this.sentences.map((sentence) =>
+      sentence.replace(new RegExp(bulletChar, 'g'), ' '),
+    );
+
+    // and remove trailing/leading spaces (again)
+    return sentencesWithoutBulletChar.map((s) => s.trim());
+  }
+
+  public static supportedLanguages(): string[] {
+    return Object.keys(Language);
   }
 
   private isNumberOrRomanNumeral(word: string): boolean {
@@ -87,7 +116,7 @@ export class SentenceSplitter {
   private isSentenceEnd(word: string): boolean {
     // Special case for numbers (ordinals)
     if (this.isNumberOrRomanNumeral(word)) {
-      // if the word is part of a date expression, it is not the end of a sentence
+      // if the word is part of a date expression, it is not the end of a sentence,
       // but we know little else
       if (this.isDateExpression(word)) return false;
     }
@@ -97,7 +126,7 @@ export class SentenceSplitter {
     }
 
     // Check for ellipsis (...) special case
-    if (word.endsWith('...')) {
+    if (word.endsWith('...') || word.endsWith(bulletChar)) {
       // we think it is a line-ending, if the next word is capitalized
       return this.isNextWordCapitalized();
     }

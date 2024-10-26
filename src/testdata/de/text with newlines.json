@@ -1,0 +1,20 @@
+{
+  "input": "Ein... effektives Customer Relationship Management (CRM) System ist für moderne Unternehmen unerlässlich\n Es sollte eine zentrale Datenbank für alle Kundeninformationen bieten, die leicht zugänglich und aktualisierbar ist. Vertriebsmitarbeiter benötigen eine übersichtliche Darstellung der Kundenhistorie, einschließlich vergangener Interaktionen und Kaufverhalten. Das CRM muss eine nahtlose Integration mit E-Mail-Systemen ermöglichen, um die Kommunikation zu erleichtern und zu dokumentieren. Automatisierte Erinnerungen für Follow-ups und wichtige Kundentermine sind ebenfalls wichtig. Für das Management sind umfassende Reporting-Funktionen erforderlich, die Einblicke in Vertriebspipelines und Kundentrends geben\n Mobile Zugänglichkeit ist in der heutigen Zeit unerlässlich, damit Mitarbeiter auch unterwegs auf Kundendaten zugreifen können. Datenschutz und Sicherheit müssen höchste Priorität haben, um sensible Kundeninformationen zu schützen. Schließlich sollte das CRM anpassbar sein, um spezifische Geschäftsprozesse und Workflows abbilden zu können. Aus Sicht einer Sekretärin sollte das CRM-System eine benutzerfreundliche Oberfläche haben, die eine schnelle Erfassung und Aktualisierung von Kundendaten ermöglicht. Eine integrierte Kalenderfunktion wäre äußerst hilfreich, um Termine und Aufgaben effizient zu verwalten. Die Möglichkeit, Dokumente direkt im System zu speichern und mit Kundenprofilen zu verknüpfen, würde die tägliche Arbeit erheblich erleichtern. Eine automatische Erinnerungsfunktion für wichtige Ereignisse wie Geburtstage oder Jubiläen von Kunden wäre ebenfalls sehr nützlich. Zudem wäre eine einfache Suchfunktion, die es ermöglicht, Kundeninformationen schnell zu finden, unerlässlich für eine effiziente Arbeitsweise. Schließlich sollte das System eine unkomplizierte Möglichkeit bieten, Berichte und Zusammenfassungen für Vorgesetzte zu erstellen, um die Kommunikation innerhalb des Unternehmens zu verbessern.",
+  "expected": [
+    "Ein... effektives Customer Relationship Management (CRM) System ist für moderne Unternehmen unerlässlich",
+    "Es sollte eine zentrale Datenbank für alle Kundeninformationen bieten, die leicht zugänglich und aktualisierbar ist.",
+    "Vertriebsmitarbeiter benötigen eine übersichtliche Darstellung der Kundenhistorie, einschließlich vergangener Interaktionen und Kaufverhalten.",
+    "Das CRM muss eine nahtlose Integration mit E-Mail-Systemen ermöglichen, um die Kommunikation zu erleichtern und zu dokumentieren.",
+    "Automatisierte Erinnerungen für Follow-ups und wichtige Kundentermine sind ebenfalls wichtig.",
+    "Für das Management sind umfassende Reporting-Funktionen erforderlich, die Einblicke in Vertriebspipelines und Kundentrends geben",
+    "Mobile Zugänglichkeit ist in der heutigen Zeit unerlässlich, damit Mitarbeiter auch unterwegs auf Kundendaten zugreifen können.",
+    "Datenschutz und Sicherheit müssen höchste Priorität haben, um sensible Kundeninformationen zu schützen.",
+    "Schließlich sollte das CRM anpassbar sein, um spezifische Geschäftsprozesse und Workflows abbilden zu können.",
+    "Aus Sicht einer Sekretärin sollte das CRM-System eine benutzerfreundliche Oberfläche haben, die eine schnelle Erfassung und Aktualisierung von Kundendaten ermöglicht.",
+    "Eine integrierte Kalenderfunktion wäre äußerst hilfreich, um Termine und Aufgaben effizient zu verwalten.",
+    "Die Möglichkeit, Dokumente direkt im System zu speichern und mit Kundenprofilen zu verknüpfen, würde die tägliche Arbeit erheblich erleichtern.",
+    "Eine automatische Erinnerungsfunktion für wichtige Ereignisse wie Geburtstage oder Jubiläen von Kunden wäre ebenfalls sehr nützlich.",
+    "Zudem wäre eine einfache Suchfunktion, die es ermöglicht, Kundeninformationen schnell zu finden, unerlässlich für eine effiziente Arbeitsweise.",
+    "Schließlich sollte das System eine unkomplizierte Möglichkeit bieten, Berichte und Zusammenfassungen für Vorgesetzte zu erstellen, um die Kommunikation innerhalb des Unternehmens zu verbessern."
+  ]
+}

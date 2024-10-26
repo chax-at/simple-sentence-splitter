@@ -1,9 +1,15 @@
 /* eslint-disable no-console */
 import { promises as fs } from 'fs';
 import path from 'node:path';
+import { SentenceSplitter } from './sentenceSplitter';
 
 import { Language } from './definitions';
 import { processString } from './functions';
+import { isEqual } from '@donedeal0/superdiff';
+import { getListDiff } from '@donedeal0/superdiff';
+const red = '\x1b[31m';
+const green = '\x1b[32m';
+const reset = '\x1b[0m';
 
 const debug = process.env.debug ?? false;
 
@@ -38,56 +44,14 @@ export class Benchmarker {
             totalTests += expected.length;
             correctTests += expected.length - wrongSentences.length;
 
-            if (JSON.stringify(result) !== JSON.stringify(expected) && debug) {
-              console.log(` Mismatch`);
-
-              // Create a new array without the matched sentences
-              const remainingExpected = expected.filter((exp: string) => !result.includes(exp));
-
-              if (wrongSentences.length > 0) {
-                console.log(`########### Wrong sentences in file: ${filePath}:`);
-                wrongSentences.forEach((sentence: string) => {
-                  console.log(sentence);
-                });
-                wrongSentences.forEach((sentence: string) => {
-                  const closestMatch = this.findClosestMatch(sentence, remainingExpected);
-                  console.log(`Actual:   "${sentence}"`);
-                  console.log(`Closest:  "${closestMatch}"`);
-                  console.log(
-                    `Diff:     "${sentence
-                      .split('')
-                      .map((char: string, i: number) => (char !== closestMatch[i] ? char : ' '))
-                      .join('')}"`,
-                  );
-                  console.log('[Matched by starting word] ---\n');
-                });
-
-                const missingSentences = expected.filter((sentence: string) => !result.includes(sentence));
-                if (missingSentences.length > 0) {
-                  console.log(`########### Missing sentences in file: ${filePath}:`);
-                  missingSentences.forEach((sentence: string) => {
-                    console.log(sentence);
-                  });
-                  console.log('---');
-
-                  // Create a new array without the matched sentences
-                  const remainingResult = result.filter((exp) => !expected.includes(exp));
-
-                  missingSentences.forEach((sentence: string) => {
-                    const closestMatch = this.findClosestMatch(sentence, remainingResult);
-                    console.log(`Expected: "${sentence}"`);
-                    console.log(`Closest:  "${closestMatch}"`);
-                    console.log(
-                      `Diff:     "${sentence
-                        .split('')
-                        .map((char: string, i: number) => (char !== closestMatch[i] ? char : ' '))
-                        .join('')}"`,
-                    );
-                    console.log('[Matched by starting word] ---\n');
-                  });
-                }
-                console.log('---');
-              }
+            if (!isEqual(result, expected) && debug) {
+              let textdiff = `Mismatch at ${filePath}:\n`;
+              const diff = getListDiff(result, expected);
+              diff.diff.forEach((line) => {
+                if (line.status === 'added') textdiff += `${green}${JSON.stringify(line.value)}${reset}\n`;
+                if (line.status === 'deleted') textdiff += `${red}${JSON.stringify(line.value)}${reset}\n`;
+              });
+              console.log(`${textdiff}\n----`);
             }
           }
         }
@@ -98,6 +62,7 @@ export class Benchmarker {
 
     const accuracy = (correctTests / totalTests) * 100;
     console.log(`Benchmark results: ${accuracy.toFixed(2)}% correct (${correctTests}/${totalTests})`);
+    console.log(`Supported languages: ${SentenceSplitter.supportedLanguages()}`);
     return accuracy;
   }
 
